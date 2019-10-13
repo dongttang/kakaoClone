@@ -1,0 +1,103 @@
+html body {
+  font-family: "Raleway", sans-serif;
+}
+html body .nav a:visited {
+  color: black;
+}
+html body .nav a {
+  color: black;
+}
+html body .nav ul {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+.main-container {
+  display: grid;
+  grid-template-rows: 40px 60px auto 60px;
+}
+.main-container .status-bar {
+  grid-template-rows: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: grid;
+  grid-template-columns: 90px auto 160px;
+}
+.status-bar .status-bar_clock {
+  grid-column-start: 1;
+}
+
+.status-bar .status-bar_ststem-status {
+  grid-column-start: 3;
+}
+.main-container .header-bar {
+  grid-template-rows: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 80px auto 80px;
+  border-bottom: #222222 solid 1px;
+  margin-bottom: 7px;
+}
+.header-bar .header-bar_title {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  align-self: center;
+  justify-self: center;
+}
+.header-bar .header-bar_icons {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+}
+.main-container .chats_chat {
+  grid-template-rows: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 60px auto 85px;
+  grid-template-rows: 31px 31px;
+}
+.chats_chat .chat_profile-picture {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-right: 10px;
+}
+.chats_chat .chat_profile-picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 45%;
+}
+.chats_chat .chat_username {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.chats_chat .chat_preview {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.chats_chat .chat_timestamp {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.main-container .nav {
+  grid-template-rows: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.nav .nav_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nav .nav_list .nav_list-link {
+  align-self: center;
+  justify-content: center;
+}
