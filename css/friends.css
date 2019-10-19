@@ -1,0 +1,111 @@
+.friends {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-rows: 80px auto auto;
+}
+.friends_profile {
+  grid-template-rows: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 40px 40px;
+}
+.profile_picture {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-right: 10px;
+}
+.profile_name {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.profile_comment {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.plus-friends {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 30px 1fr;
+}
+.plus-friends_title {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.plus-friends_list {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-rows: auto;
+}
+.plus-friends_friend {
+  display: grid;
+  grid-template-columns: 50px auto;
+  margin-bottom: 10px;
+}
+.plus-friends_picture {
+  width: 100%;
+  height: auto;
+  border-radius: 45%;
+}
+.plus-friends_username {
+  padding-left: 20px;
+  align-self: center;
+}
+.friends_friends {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 30px auto;
+}
+.friends_title {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.friends_friend {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 50px 15px auto 200px;
+  grid-template-rows: 25px 25px;
+}
+.friend_picture {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.friend_username {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.friend_comment {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.friend_song {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: end;
+  padding-right: 5px;
+}
+.friends img {
+  width: 100%;
+  border-radius: 45%;
+}
+.friends a {
+  color: #333333;
+}

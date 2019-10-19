@@ -1,0 +1,38 @@
+.chats_chat {
+  grid-template-rows: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 60px auto 85px;
+  grid-template-rows: 31px 31px;
+}
+.chat_profile-picture {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-right: 10px;
+}
+.chat_profile-picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 45%;
+}
+.chat_username {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.chat_preview {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.chat_timestamp {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}

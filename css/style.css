@@ -12,92 +12,61 @@ html body .nav ul {
   text-decoration: none !important;
 }
 .main-container {
+  padding: 6px;
   display: grid;
   grid-template-rows: 40px 60px auto 60px;
 }
-.main-container .status-bar {
+.status-bar {
   grid-template-rows: 1;
   grid-row-start: 1;
   grid-row-end: 1;
   display: grid;
   grid-template-columns: 90px auto 160px;
 }
-.status-bar .status-bar_clock {
+.status-bar_clock {
   grid-column-start: 1;
 }
 
-.status-bar .status-bar_ststem-status {
+.status-bar_ststem-status {
   grid-column-start: 3;
 }
-.main-container .header-bar {
+.header-bar {
   grid-template-rows: 1;
   grid-row-start: 2;
   grid-row-end: 2;
   display: grid;
-  grid-template-columns: 80px auto 80px;
+  grid-template-columns: 80px auto auto;
   border-bottom: #222222 solid 1px;
   margin-bottom: 7px;
 }
-.header-bar .header-bar_title {
+.header-bar_title {
   grid-column-start: 1;
   grid-column-end: 1;
   align-self: center;
   justify-self: center;
 }
-.header-bar .header-bar_icons {
+.header-bar_icons {
   grid-column-start: 3;
   grid-column-end: 3;
+  padding-right: 20px;
   align-self: center;
   justify-self: center;
+  justify-self: end;
 }
-.main-container .chats_chat {
-  grid-template-rows: 1;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: 60px auto 85px;
-  grid-template-rows: 31px 31px;
+.header-bar_icons span {
+  margin-left: 10px;
 }
-.chats_chat .chat_profile-picture {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  margin-right: 10px;
-}
-.chats_chat .chat_profile-picture img {
-  width: 100%;
-  height: auto;
-  border-radius: 45%;
-}
-.chats_chat .chat_username {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-.chats_chat .chat_preview {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 2;
-}
-.chats_chat .chat_timestamp {
-  grid-column-start: 3;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 1;
-}
-.main-container .nav {
+.nav {
   grid-template-rows: 1;
   grid-row-start: 4;
   grid-row-end: 4;
+  vertical-align: baseline;
 }
-.nav .nav_list {
+.nav_list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.nav .nav_list .nav_list-link {
+.nav_list-link {
   align-self: center;
   justify-content: center;
 }
