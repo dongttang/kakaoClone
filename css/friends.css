@@ -45,20 +45,19 @@
   grid-row-end: 2;
   display: grid;
   grid-template-rows: auto;
+  padding: 0px;
 }
 .plus-friends_friend {
   display: grid;
   grid-template-columns: 50px auto;
   margin-bottom: 10px;
 }
-.plus-friends_picture {
-  width: 100%;
-  height: auto;
-  border-radius: 45%;
-}
 .plus-friends_username {
   padding-left: 20px;
   align-self: center;
+}
+.friends_list {
+  padding: 0px;
 }
 .friends_friends {
   margin-top: 20px;
@@ -104,7 +103,7 @@
 }
 .friends img {
   width: 100%;
-  border-radius: 45%;
+  border-radius: 40%;
 }
 .friends a {
   color: #333333;

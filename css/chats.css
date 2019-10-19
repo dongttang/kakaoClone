@@ -1,3 +1,6 @@
+.chats_list {
+  padding: 0px;
+}
 .chats_chat {
   grid-template-rows: 1;
   grid-row-start: 3;
